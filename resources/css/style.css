@@ -3,8 +3,8 @@
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+  display: block;
 }
 
 h2 {
@@ -78,7 +78,7 @@ main {
 
 .featured {
   width: 1000px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -130,9 +130,77 @@ main {
 .bedfordbizarretea {
   background-image: url('../images/img-bedford-bizarre.jpg');
   background-size: contain;
-  background-repeat: no-repeat;
   width: 300px;
   height: 200px;
 }
 
 /*featuredtea-end*/
+
+
+/*locations*/
+
+.locations {
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 500px;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.locations-container {
+  display: inline-flex;
+  background-color: transparent;
+}
+
+.locations h2 {
+  background-color: transparent;
+  margin-top: 60px;
+}
+
+.downtown {
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.eastbayside {
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.oakdale {
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+/*locations-end*/
+
+
+
+footer h5 {
+  text-align: left;
+}
