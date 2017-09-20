@@ -7,13 +7,17 @@
   text-align: center;
 }
 
+
+/*Header*/
+
 header {
   width:  100%;
   height: 69px;
   position: fixed;
-  border-bottom: 1px solid seashell;
+  border-bottom: 1px solid white;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .headerlogo {
@@ -35,3 +39,32 @@ ul {
 li {
   margin: 10px;
 }
+
+/*Header*/
+
+
+/*mission*/
+
+main {
+  background-image: url('../images/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  width: 100%;
+  height: 700px;
+  margin-top: 69px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.mission {
+  width: 100%;
+}
+
+/*mission*/
